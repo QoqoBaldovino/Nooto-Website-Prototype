@@ -1,0 +1,38 @@
+/*----------- Header */
+header .header-icons-container .icons{
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+header .header-main-container{
+  background-color: black;
+}
+
+/*--- Index */
+
+main{
+  margin: 0;
+}
+
+main .main-title-container{
+  padding: 30% 5% 0 5%;
+}
+
+main .main-title-container .main-title{
+  width: 80%;
+}
+
+/*------ Blogs*/ 
+.main-blog{
+  display: block;
+}
+
+.main-blog-info{
+  padding: 5% 0;
+}
+
+.last-blogs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}

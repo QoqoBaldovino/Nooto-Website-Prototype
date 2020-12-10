@@ -1,0 +1,71 @@
+header{
+  height: 170px;
+}
+
+header .header-icons-container .icons{
+  margin-right: 10px;
+}
+
+header .header-icons-container .icons a{
+  width: 60px;
+  text-align: center;
+}
+
+header .header-icons-container .icons span::before{
+  font-size: 25px;
+}
+
+header .header-main-container{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .header-logo-container{
+  width: 170px;
+  margin: 0 auto;
+}
+
+header .header-profile-container{
+  width: 72px;
+  margin: 0 auto;
+}
+
+
+
+
+/* ------- BLOGSS*/
+.main-blog{
+  padding: 10% 10%;
+}
+
+.main-blog{
+  height: 500px;
+}
+
+
+.main-blog-info{
+  height: 200px;
+}
+
+.main-blog-title{
+  font-size: 1.3em;
+  padding-bottom: 5px;
+}
+
+.main-blog-description{
+  padding: 0;
+  padding-bottom: 20px;
+  
+}
+
+.last-blogs{
+  grid-template-columns: 1fr;
+}
+
+
+/*-------FOOTER*/
+footer p{
+  font-size: .8em;
+}
