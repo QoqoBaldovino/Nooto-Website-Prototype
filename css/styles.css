@@ -244,6 +244,72 @@ main .main-link-container .main-link{
   margin: 10px 0;
 }
 
+/*------Blogpost*/
+main .blog-image img{
+  width: 100%;
+}
+
+main .blog-info-container{
+  padding-top: 0;
+}
+
+main .blog-info-title h3{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+main .blogpost{
+  padding-top: 0;
+}
+
+main .blogpost-title{
+  font-size: 2em;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+}
+
+main .blogpost-info p{
+  padding: 10px 0;
+}
+
+.contact{
+  background-color: rgb(223, 221, 221);
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-item{
+  display: flex;
+  align-items: center;
+}
+
+.contact-item img{
+  width: 100px;
+  padding: 10px;
+}
+
+/*!--- Profile*/
+.profile-container{
+  background-color: rgb(223, 221, 221);
+  display: flex;
+  
+}
+
+.profile-image img{
+  width: 300px;
+  border-radius: px;
+}
+
+.profile-info h3{
+  font-size: 3em;
+  letter-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.profile-info p{
+  font-size: 1.5em;
+}
+
 /*---------FOOTER*/
 
 footer{
@@ -259,3 +325,4 @@ footer p{
   color: white;
   
 }
+
